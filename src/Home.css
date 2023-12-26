@@ -1,0 +1,116 @@
+.body {
+  margin: 0px;
+}
+.conteaner {
+  background: #B1D0E0;
+  margin: -8px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1px;
+}
+a {
+  text-decoration: none;
+}
+.icon-setting {
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.text-setting {
+  font-size: large;
+  color: #000;
+}
+.list {
+  width: 350px;
+  padding: 1em;
+  margin-bottom: 1em;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 2px 10px 0 rgb(31 38 135 / 37%);
+  backdrop-filter: blur(6px);
+  color: #000;
+  font-weight: bold;
+  transition: all 0.2s ease-in-out;
+  border-radius: 7px;
+  margin: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.input {
+  height: 30px;
+  width: 209px;
+  border-radius: 5px;
+  border: 3px solid white;
+  margin-right: 10px;
+}
+.btn {
+  background: #FFC286;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  border: none;
+}
+.check {
+  margin: -2px;
+  color: #f50057;
+}
+.favorite {
+  margin: -8px;
+}
+.favoritetwo {
+  margin: -8px;
+  margin-left: 4px;
+  margin-top: 11px;
+}
+.dele {
+  margin: -8px;
+  margin-left: 4px;
+  margin-top: 11px;
+  background-color: "#f2599c";
+}
+.tab {
+  border: none;
+  margin: 3px;
+  background-color: unset;
+  font-size: 15px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+.thistab {
+  background: linear-gradient(
+    90deg,
+    #FFC286 100%,
+    rgba(0, 255, 171, 0.14609593837535018) 100%
+  );
+  color: rgba(0, 0, 0, 0.87);
+  padding: 6px 16px;
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  line-height: 1.75;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
+  border: none;
+}
+
+.faCog {
+  color: #FFC286;
+  font-size: 24px;
+  margin-left: 4px;
+}
